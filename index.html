@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,71 @@
     <link rel="stylesheet" href="Style.css">
     <title>Site de voyage</title>
 </head>
+
 <body>
     <div class="container">
         <nav>
-            <img src="assets/logo de voyage.png" class="logo" alt="">
+            <a href="index.html"><img src="assets/logo de voyage.png" class="logo" alt="" title="LOGO"></a>
             <ul>
-                <li><a href="">acceuil</a></li>
-                <li><a href="">tarifs</a></li>
-                <li><a href="">offre de dernière minute</a></li>
+                <li><a href="#">ACCEUIL</a></li>
+                <li><a href="#">TARIFS</a></li>
+                <li><a href="#">OFFRE DE DERNIÈRE MINUTE</a></li>
+                <li><a href="#">RÉSERVATION</a></li>
             </ul>
-            <img src="assets/cart.jpg" alt="" width="60">
+            <a
+                href="https://www.google.com/search?q=connexion&rlz=1C1VDKB_frFR1055FR1055&sxsrf=APwXEdfEV-KoR16PVOU4fAo9sLm6kaSKYg:1682693534486&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiB8I3z6cz-AhVBbKQEHY5QBFEQ_AUoAXoECAUQAw&biw=1536&bih=656&dpr=1.25#imgrc=Ii-aoozXFp0jxM"><img
+                    src="assets/icone profil.png" alt="" width="60"></a>
         </nav>
+        <div class="tableau">
+            <form action="#" method="POST">
+
+                <legend>Destination</legend>
+                <ol>
+                    <li>
+                        <label for="city">Lieu de départ</label>
+                        <input type="text" name="Départ de:" id="Départ de:" placeholder="Départ" required>
+                    </li>
+                    <li>
+                        <label for="city">Lieu d'arrivée</label>
+                        <input type="text" name="Arrivée" id="Arrivée" placeholder="Destination" required>
+                    </li>
+                    <li>
+                        <label for="date">Départ le</label>
+                        <input type="date" name="Date" id="Date" placeholder="" required>
+                    </li>
+                    <li>
+                        <label for="date">Retour le</label>
+                        <input type="date" name="Date" id="Date" placeholder="" required>
+                    </li>
+                </ol>
+
+                <div class="recherche">
+                    <input type="submit" value="Recherche">
+                </div>
+            </form>
+        </div>
         <div class="site-container">
-            <p>Bienvenue sur</p>
+                <p>Bienvenue sur</p>
             <H1>AirVoyage</H1>
             <h4>EN APESANTEUR? VENEZ PROFITER DU CALME DE CHEZ NOUS</h4>
-            
             <div class="row">
-                <a href="#">prendre rendez vous</a>
-                <a href="#">voir les sites <span>&#x27f6</span></a>
-                <span>vvnezlvkenzvlknveklvnklnvklvnklzevnkleznvk <br> zknzekleznklznfklenkezlnezklfnlk</span>
+                <a href="#">Prendre rendez vous</a>
+                <a href="#">Voir les sites <span>&#x27f6</span></a>
+                <span> <a href="#"> www.airvoyage-rdv.fr</a> <br> <a href="#"> www.airvoyage contact.fr</a></span>
 
             </div>
         </div>
-    <div class="social-icons">
-        <a href="#"><img src="assets/youtube logoo.png" alt="" width="20"></a>
-        <a href="#"><img src="assets/twitter.png" alt="" width="20"></a>
-        <a href="#"><img src="assets/insta.png" alt="" width="20"></a>
-        <a href="#"><img src="assets/twitch.png" alt="" width="20"></a>
+        <div class="social-icons">
+            <a href="#"><img src="assets/youtube logoo.png" alt="" width="50"></a>
+            <a href="#"><img src="assets/twitter.png" alt="" width="50"></a>
+            <a href="#"><img src="assets/insta.png" alt="" width="50"></a>
+            <a href="#"><img src="assets/twitch.png" alt="" width="50"></a>
 
+        </div>
     </div>
+    <div class="avion">
+        <img src="assets/avion.jpg" alt="image avion">
     </div>
 </body>
+
 </html>
